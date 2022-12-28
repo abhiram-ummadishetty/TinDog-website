@@ -1,0 +1,157 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Caramel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+
+.cntainer-fluid{
+    width: 100%;
+    padding: 3% 15%;
+
+}
+
+.testimonial-h2{
+    font-family:  'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #fff;
+    line-height: 1.5em;
+}
+
+#title{
+    background-color: #ff4c68;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.ti{
+    font-size: 3.5rem;
+    padding-bottom: 15px;
+    color: whitesmoke;
+}
+
+.navbar-brand{
+    font-weight: 900;
+    --bs-navbar-brand-font-size: 2.25rem;
+}
+
+.title-img{
+    width: 20%;
+    right: 15%;
+    transform: rotate(25deg);
+    position: absolute;
+
+}
+
+#features{
+    background-color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+   
+    width: 100%;
+    padding: 2.5rem;
+}
+
+.feature-icon{
+    color: #ef8172;
+    padding: 5%;
+}
+
+.feature-icon:hover{
+    color: #ff4c68;
+    cursor: pointer;
+}
+
+.feature-title{
+    font-size:1.4rem;
+}
+
+#features p{
+    color: #8f8f8f;
+    font-weight:100;
+    font-size: small;
+}
+
+p{
+    color: #8f8f8f;
+    font-weight:100;
+    font-size: small;
+}
+
+.feature-col{
+    padding: 0% 20%;
+}
+
+#testimonials{
+    background-color: #ef8172;
+    text-align: center;
+}
+
+.carousel-item{
+    padding: 3% 15%;
+
+}
+
+.testimonial-img{
+    width: 9%;
+    height: 9%;
+    border-radius: 100%;
+    margin: 3%;
+}
+
+#press{
+    background-color: #ef8172;
+    padding: 3%;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-img{
+
+    width: 15%;
+    height: 15%;
+    margin: 3%;
+}
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.princing-h2{
+    margin-bottom: 2%;
+}
+
+.princing-col{
+   padding: 2% 3%;
+}
+
+#cta{
+    background-color: #ff4c68;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.cta-head{
+    line-height: 4;
+}
+
+#footer{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    padding: 5% 15%;
+    text-align: center;
+}
+
+@media (max-width:1250px){
+    .title-img{
+        position: static;
+        width: 60%;
+        transform: rotate(0);
+        padding-top: 10px;
+    }
+    #title{
+        text-align: center;
+    }
+}
